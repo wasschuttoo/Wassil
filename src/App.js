@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -9,7 +9,7 @@ import './styles/App.css';
 
 function App() {
   return (
-    <Router basename="/Wassil">
+    <BrowserRouter basename="/Wassil">
       <div className="App">
         <Header />
         <nav>
@@ -26,7 +26,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
