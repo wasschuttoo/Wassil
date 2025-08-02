@@ -1,0 +1,50 @@
+.career-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(120deg, #f7fafc 60%, #e3e9f0 100%);
+}
+
+.career-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #2d3e50;
+}
+
+.career-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.career-item {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(44, 62, 80, 0.08);
+  padding: 36px 32px 32px 32px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  margin: 40px 0;
+  transition: box-shadow 0.2s;
+}
+
+.career-item:hover {
+  box-shadow: 0 12px 40px rgba(44, 62, 80, 0.15);
+}
+
+.career-position {
+  font-size: 18px;
+  color: #2d3e50;
+}
+
+.career-company {
+  font-size: 24px;
+  color: #4b6584;
+}
+
+.career-description {
+  font-size: 16px;
+  color: #666;
+}

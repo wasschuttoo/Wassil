@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-  background: #2d3e50;
+  background: linear-gradient(120deg, #4fc9d4, #0e278c);
   color: #fff;
   padding: 30px 0 20px 0;
   border-radius: 10px 10px 0 0;
@@ -68,77 +68,6 @@ nav ul li a.active {
   color: #fff;
 }
 
-/* Section styles */
-section {
-  padding: 32px 40px;
-}
-
-section h2 {
-  color: #2d3e50;
-  margin-top: 0;
-  font-size: 2rem;
-}
-
-/* About page */
-section p {
-  line-height: 1.7;
-  margin-bottom: 18px;
-}
-
-/* Projects page */
-section ul {
-  padding-left: 20px;
-}
-
-section ul li {
-  margin-bottom: 10px;
-  font-size: 1.1rem;
-}
-
-/* Contact form */
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  max-width: 400px;
-  margin-top: 18px;
-}
-
-form label {
-  font-weight: 500;
-  margin-bottom: 4px;
-}
-
-form input,
-form textarea {
-  padding: 8px 10px;
-  border: 1px solid #bfc9d1;
-  border-radius: 4px;
-  font-size: 1rem;
-  resize: vertical;
-}
-
-form textarea {
-  min-height: 80px;
-}
-
-form button {
-  background: #2d3e50;
-  color: #fff;
-  border: none;
-  padding: 10px 0;
-  border-radius: 5px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-form button:hover {
-  background: #1b2633;
-}
-
-/* Footer */
 footer {
   text-align: center;
   padding: 18px 0 0 0;
