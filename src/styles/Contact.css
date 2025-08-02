@@ -1,0 +1,94 @@
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 60vh;
+  background: linear-gradient(120deg, #f7fafc 60%, #e3e9f0 100%);
+}
+
+.contact-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(44,62,80,0.08);
+  padding: 36px 32px 32px 32px;
+  max-width: 420px;
+  width: 100%;
+  margin: 40px 0;
+  transition: box-shadow 0.2s;
+}
+
+.contact-card:hover {
+  box-shadow: 0 12px 40px rgba(44,62,80,0.15);
+}
+
+.contact-card h2 {
+  margin-top: 0;
+  color: #2d3e50;
+  font-size: 2rem;
+}
+
+.contact-intro {
+  color: #4b6584;
+  margin-bottom: 24px;
+  font-size: 1.08rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #2d3e50;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #bfc9d1;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f7f9fa;
+  transition: border 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border: 1.5px solid #2d3e50;
+  outline: none;
+}
+
+.form-group textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.contact-btn {
+  background: linear-gradient(90deg, #2d3e50 60%, #4b6584 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.07);
+}
+
+.contact-btn:hover {
+  background: linear-gradient(90deg, #1b2633 60%, #3867d6 100%);
+  box-shadow: 0 4px 16px rgba(44,62,80,0.15);
+}
