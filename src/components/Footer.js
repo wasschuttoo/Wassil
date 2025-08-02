@@ -12,17 +12,14 @@ const Footer = () => {
         <span> | </span>
         <a href="https://www.linkedin.com/in/wassilchuttoo" target="_blank" rel="noopener noreferrer">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style={{ width: 20, verticalAlign: 'middle', marginRight: 6 }} />
-          LinkedIn
         </a>
         <span> | </span>
         <a href="https://wa.me/23054885938" target="_blank" rel="noopener noreferrer">
           <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style={{ width: 20, verticalAlign: 'middle', marginRight: 6 }} />
-          WhatsApp
         </a>
         <span> | </span>
         <a href="tel:+23054885938">
           <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Call" style={{ width: 20, verticalAlign: 'middle', marginRight: 6 }} />
-          Call
         </a>
       </div>
     </footer>
