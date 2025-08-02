@@ -13,13 +13,13 @@ function App() {
       <div className="App">
         <Header /><nav>
           <ul>
-            <li><Link to="/about">About</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/projects">Projects</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>
         <Routes>
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
