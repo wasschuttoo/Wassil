@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Wassil/static/css/main.f4a2a356.chunk.css",
-    "main.js": "/Wassil/static/js/main.16b7775a.chunk.js",
-    "main.js.map": "/Wassil/static/js/main.16b7775a.chunk.js.map",
+    "main.css": "/Wassil/static/css/main.d5513b80.chunk.css",
+    "main.js": "/Wassil/static/js/main.34eb8f0d.chunk.js",
+    "main.js.map": "/Wassil/static/js/main.34eb8f0d.chunk.js.map",
     "runtime-main.js": "/Wassil/static/js/runtime-main.e5f36f80.js",
     "runtime-main.js.map": "/Wassil/static/js/runtime-main.e5f36f80.js.map",
-    "static/js/2.3901fbe4.chunk.js": "/Wassil/static/js/2.3901fbe4.chunk.js",
-    "static/js/2.3901fbe4.chunk.js.map": "/Wassil/static/js/2.3901fbe4.chunk.js.map",
+    "static/js/2.688fb68d.chunk.js": "/Wassil/static/js/2.688fb68d.chunk.js",
+    "static/js/2.688fb68d.chunk.js.map": "/Wassil/static/js/2.688fb68d.chunk.js.map",
     "index.html": "/Wassil/index.html",
-    "static/css/main.f4a2a356.chunk.css.map": "/Wassil/static/css/main.f4a2a356.chunk.css.map",
-    "static/js/2.3901fbe4.chunk.js.LICENSE.txt": "/Wassil/static/js/2.3901fbe4.chunk.js.LICENSE.txt",
+    "static/css/main.d5513b80.chunk.css.map": "/Wassil/static/css/main.d5513b80.chunk.css.map",
+    "static/js/2.688fb68d.chunk.js.LICENSE.txt": "/Wassil/static/js/2.688fb68d.chunk.js.LICENSE.txt",
     "static/media/profileImage.ab69e8e7.png": "/Wassil/static/media/profileImage.ab69e8e7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e5f36f80.js",
-    "static/js/2.3901fbe4.chunk.js",
-    "static/css/main.f4a2a356.chunk.css",
-    "static/js/main.16b7775a.chunk.js"
+    "static/js/2.688fb68d.chunk.js",
+    "static/css/main.d5513b80.chunk.css",
+    "static/js/main.34eb8f0d.chunk.js"
   ]
 }
