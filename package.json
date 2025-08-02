@@ -27,10 +27,10 @@
     "react-router-dom": "^6.30.1",
     "react-scripts": "^4.0.3"
   },
-  "homepage": "https://wasschuttoo.github.io/Wassil/",
+  "homepage": "https://wasschuttoo.github.io/Wassil",
   "repository": {
     "type": "git",
-    "url": "http://github.com/yourusername/portfolio_react.git"
+    "url": "https://github.com/wasschuttoo/Wassil.git"
   },
   "browserslist": {
     "production": [

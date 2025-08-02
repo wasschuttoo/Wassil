@@ -9,9 +9,10 @@ import './styles/App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Wassil">
       <div className="App">
-        <Header /><nav>
+        <Header />
+        <nav>
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/projects">Projects</Link></li>
