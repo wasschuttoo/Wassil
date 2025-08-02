@@ -21,6 +21,10 @@ const Footer = () => {
         <a href="tel:+23054885938">
           <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Call" style={{ width: 20, verticalAlign: 'middle', marginRight: 6 }} />
         </a>
+         <span> | </span>
+        <a href="mailto:wassil@example.com">
+          <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" style={{ width: 20, verticalAlign: 'middle', marginRight: 6 }} />
+        </a>
       </div>
     </footer>
   );
