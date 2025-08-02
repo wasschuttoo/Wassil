@@ -28,7 +28,7 @@ jobs:
         run: npm install -D @playwright/test@1.38.1
 
       - name: Install Playwright browsers
-        run: npx playwright install --with-deps
+        run: npx playwright install
 
       - name: Build React app
         run: npm run build
