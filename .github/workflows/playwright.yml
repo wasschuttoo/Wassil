@@ -34,8 +34,14 @@ jobs:
         run: npx playwright test || echo "Some tests failed"
         continue-on-error: true
 
-      - name: List files for debugging
-        run: ls -R
+      - name: Deploy Playwright report to GitHub Pages
+        if: always()  # even if tests fail
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./playwright-report
+          destination_dir: tests
+          keep_files: true
 
       - name: Upload Playwright Report
         uses: actions/upload-artifact@v4
