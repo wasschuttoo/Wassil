@@ -5,6 +5,9 @@ const config = {
   timeout: 30000,
   retries: 0,
   outputDir: './test-results/',
+
+  reporter: [['html', { outputFolder: './playwright/playwright-report', open: 'never' }]],
+
   use: {
     browserName: 'chromium',
     headless: false,
