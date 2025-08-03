@@ -6,7 +6,7 @@ const config = {
   retries: 0,
   outputDir: './test-results/',
 
-  reporter: [['html', { outputFolder: './playwright/playwright-report', open: 'never' }]],
+  reporter: [['html', { outputFolder: 'playwright-report', open: 'never' }]],
 
   use: {
     browserName: 'chromium',
