@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Wassil/static/css/main.d1556eb3.chunk.css",
-    "main.js": "/Wassil/static/js/main.34eb8f0d.chunk.js",
-    "main.js.map": "/Wassil/static/js/main.34eb8f0d.chunk.js.map",
+    "main.js": "/Wassil/static/js/main.bf24f81b.chunk.js",
+    "main.js.map": "/Wassil/static/js/main.bf24f81b.chunk.js.map",
     "runtime-main.js": "/Wassil/static/js/runtime-main.e5f36f80.js",
     "runtime-main.js.map": "/Wassil/static/js/runtime-main.e5f36f80.js.map",
     "static/js/2.688fb68d.chunk.js": "/Wassil/static/js/2.688fb68d.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.e5f36f80.js",
     "static/js/2.688fb68d.chunk.js",
     "static/css/main.d1556eb3.chunk.css",
-    "static/js/main.34eb8f0d.chunk.js"
+    "static/js/main.bf24f81b.chunk.js"
   ]
 }

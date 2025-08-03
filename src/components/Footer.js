@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()} Wassil Chuttoo. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Wassil Chuttoo.</p>
       <div>
         {/* <a href="https://github.com/wasschuttoo" target="_blank" rel="noopener noreferrer">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style={{ width: 20, verticalAlign: 'middle', marginRight: 6 }} />
